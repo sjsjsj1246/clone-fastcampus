@@ -21,13 +21,19 @@
 
 실행
 
-```
+```sh
 npm run dev
 ```
 
 배포
 
-```
+```sh
 npm run build
 npm run deploy
 ```
+
+## 테스트
+
+Jest사용
+
+- npm run test
