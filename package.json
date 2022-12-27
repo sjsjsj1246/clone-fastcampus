@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "docker": "docker build -t fastcampus .",
+    "docker:start": "docker run -p 3000:3000 fastcampus"
   },
   "dependencies": {
     "@next/font": "13.1.1",
