@@ -12,6 +12,7 @@
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/function-component-definition": "off",
-    "arrow-body-style": "off"
+    "arrow-body-style": "off",
+    "@next/next/no-img-element": "off"
   }
 }
