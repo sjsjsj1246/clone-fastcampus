@@ -1,6 +1,6 @@
-import Banner from "@components/Banner";
-import LectureGroup from "@components/Lecture/LectureGroup";
-import Menu from "@components/Menu";
+import Banner from "components/Banner";
+import LectureGroup from "components/Lecture/LectureGroup";
+import Menu from "components/Menu";
 import { NextPage } from "next";
 import styles from "../styles/Home.module.css";
 

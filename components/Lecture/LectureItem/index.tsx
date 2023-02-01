@@ -1,12 +1,18 @@
+import TagList from "components/TagList";
+import { Lecture } from "interface/lecture";
 import React from "react";
 
-export default function LectureItem() {
+interface Props {
+  lecture: Lecture;
+}
+
+export default function LectureItem({ lecture }: Props) {
   return (
     <div>
-      <h1>초격차 패키지</h1>
-      <span>Best</span>
-      <p>개발 운영 아키텍트를 아우르는</p>
-      <img src="" alt="초격차 패키지" />
+      <img src={lecture.thumb} alt="초격차 패키지" />
+      <TagList tagListData={lecture.tags} />
+      <h3>{lecture.title}</h3>
+      <p>{lecture.description}</p>
     </div>
   );
 }
